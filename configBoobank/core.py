@@ -7,10 +7,10 @@ import helpers.banks as bank
 
 
 # File containing paths
-configFile = "/root/src/configBoobank/.config"
+configFile = "/home/quentin/src/configBoobank/.config"
 
 def switch_to_local_update(sourceFile):
-	content = "file:///root/src/weboob/modules"
+	content = "file:///home/quentin/src/weboob/modules"
 	write(sourceFile, content)
 
 def get_user_config():
