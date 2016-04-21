@@ -4,7 +4,6 @@ import getpass
 from fileIO import read, write, append
 
 def check_number(value, size):
-	print size,"value=",value
 	if (value.isdigit() and int(value) is not 0 
 	   and int(value) <= int(size)):
 		return True
