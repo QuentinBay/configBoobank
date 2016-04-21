@@ -7,7 +7,7 @@ import helpers.banks as bank
 
 
 # File containing paths
-configFile = ".config"
+configFile = "/root/src/configBoobank/.config"
 
 def switch_to_local_update(sourceFile):
 	content = "file:///root/src/weboob/modules"
